@@ -1,0 +1,16 @@
+services:
+  jupyter:
+    build: .
+    container_name: team5_final_project
+    ports:
+      - "8889:8888"
+    volumes:
+      - .:/workspace
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    networks:
+      - project_network
+
+networks:
+  project_network:
+    driver: bridge

@@ -15,11 +15,11 @@ RUN pip install --upgrade pip
 RUN pip install \
     pandas==2.1.1 \
     numpy==1.26.0 \
-    scikit-learn==1.3.0 \
+    scikit-learn==1.4.2 \
     xgboost==2.0.0 \
     matplotlib==3.7.2 \
     seaborn==0.13.0 \
-    imbalanced-learn==1.1.2 \
+    imbalanced-learn==0.14.0 \
     jupyter==1.0.0
 
 WORKDIR /workspace
@@ -27,4 +27,4 @@ WORKDIR /workspace
 COPY --chown=1000:100 . /workspace
 
 
-CMD jupyter notebook --no-browser --allow-root --ip 0.0.0.0
+CMD jupyter notebook --no-browser --allow-root --ip 0.0.0.0 Final_Project.ipynb
