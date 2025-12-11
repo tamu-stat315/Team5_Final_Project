@@ -38,4 +38,4 @@ http://127.0.0.1:8888/?token=123243bhnjk34435bj4nk3ml245b4j243n4353n4b35jj
 
 Copy the full URL and past it into your browser to open the Jupyter environment
 
-ps - Our 4th code block takes about 10 - 20 min to run
+ps - Our Feature Engineering takes about 10 - 20 min to run
